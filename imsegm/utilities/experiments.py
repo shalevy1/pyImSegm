@@ -152,7 +152,7 @@ def create_experiment_folder(params, dir_name, stamp_unique=True, skip_load=True
     >>> p = {'path_out': '.'}
     >>> p = create_experiment_folder(p, 'my_test', False, skip_load=True)
     >>> pd.Series(p).sort_index()  #doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    computer                   (...
+    computer                   [...
     path_exp      ./my_test_EXAMPLE
     path_out                      .
     dtype: object
