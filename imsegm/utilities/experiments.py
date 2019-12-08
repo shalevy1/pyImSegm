@@ -456,7 +456,7 @@ def load_config_yaml(path_config):
     >>> os.remove(p_conf)
     """
     with open(path_config, 'r') as fp:
-        config = yaml.load(fp)
+        config = yaml.safe_load(fp)
     return config
 
 
